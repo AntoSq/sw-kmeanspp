@@ -1,0 +1,53 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "sw-kmeanspp"
+version: "v1.0.0"
+date-released: "2026-10-26"  # TODO: update to the actual GitHub/Zenodo release date
+doi: "10.5281/zenodo.XXXXXXX"  # TODO: fill in after the Zenodo DOI is minted (see README)
+license: "MIT"
+repository-code: "https://github.com/TODO-ORG/sw-kmeanspp"  # TODO: fill in after the GitHub repo is created
+authors:
+  - family-names: "Squintu"
+    given-names: "Antonello"
+    affiliation: "CMCC Foundation, Bologna, Italy"
+    email: "antonello.squintu@cmcc.it"
+    orcid: "https://orcid.org/0000-0000-0000-0000"  # TODO: fill in
+  - family-names: "Pérez-Aracil"
+    given-names: "Jorge"
+    affiliation: "Dept. of Signal Theory and Communications, University of Alcalá, Spain"
+    orcid: "https://orcid.org/0000-0000-0000-0000"  # TODO: fill in
+  - family-names: "McAdam"
+    given-names: "Ronan"
+    affiliation: "CMCC Foundation, Bologna, Italy"
+    orcid: "https://orcid.org/0000-0000-0000-0000"  # TODO: fill in
+  - family-names: "Fella"
+    given-names: "Eugenio"
+    affiliation: "CMCC Foundation, Bologna, Italy / Alma Mater, University of Bologna, Italy"
+    orcid: "https://orcid.org/0000-0000-0000-0000"  # TODO: fill in
+  - family-names: "Iakovidis"
+    given-names: "Isidoros"
+    affiliation: "CMCC Foundation, Bologna, Italy"
+    orcid: "https://orcid.org/0000-0000-0000-0000"  # TODO: fill in
+  - family-names: "Scoccimarro"
+    given-names: "Enrico"
+    affiliation: "CMCC Foundation, Bologna, Italy"
+    orcid: "https://orcid.org/0000-0000-0000-0000"  # TODO: fill in
+preferred-citation:
+  type: article
+  title: "Spatially Weighted k-means++: an updated regionalization approach for climate data"
+  journal: "Geoscientific Model Development"
+  year: 2026
+  doi: "10.0000/TODO-PAPER-DOI"  # TODO: fill in once the manuscript is published
+  authors:
+    - family-names: "Squintu"
+      given-names: "Antonello"
+    - family-names: "Pérez-Aracil"
+      given-names: "Jorge"
+    - family-names: "McAdam"
+      given-names: "Ronan"
+    - family-names: "Fella"
+      given-names: "Eugenio"
+    - family-names: "Iakovidis"
+      given-names: "Isidoros"
+    - family-names: "Scoccimarro"
+      given-names: "Enrico"

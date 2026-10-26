@@ -1,0 +1,4 @@
+# Single data root -- no machine/account detection. Override with --data-root
+# or the SWKMEANSPP_DATA_ROOT environment variable.
+data_root: ./data
+output_dir: ./output

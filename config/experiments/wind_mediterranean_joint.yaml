@@ -1,0 +1,13 @@
+# Manuscript Sect. 3.4, Fig. 8: joint U10+V10, Mediterranean, w_s=5%, equal
+# per-variable temporal weights ("by e.g. providing same value to all w_t,v").
+name: wind_mediterranean_joint
+domain: Mediterranean
+variables: [u10, v10]
+k: 5
+period: {start: 1991, end: 2020}
+seed: 0
+pca: {variance_threshold_pct: 1.0}
+baselines: [pca_kmeans]
+w_t: {u10: 0.475, v10: 0.475}
+runs:
+  - {label: ws05, w_s: 0.05, allow_background_cluster: true, max_iter: 60}

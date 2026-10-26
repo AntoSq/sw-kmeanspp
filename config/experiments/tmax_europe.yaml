@@ -1,0 +1,11 @@
+# Manuscript Appendix A, Fig. 9: TMAX, Europe.
+name: tmax_europe
+domain: Europe
+variables: [tmax]
+k: 5
+period: {start: 1991, end: 2020}
+seed: 0
+pca: {variance_threshold_pct: 1.0}
+baselines: [pca_kmeans]
+runs:
+  - {label: ws05, w_s: 0.05, allow_background_cluster: true, max_iter: 60}

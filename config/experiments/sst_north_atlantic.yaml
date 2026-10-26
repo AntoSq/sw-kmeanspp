@@ -1,0 +1,11 @@
+# Manuscript Sect. 3.2, Fig. 6: SST, North Atlantic, w_s=5%.
+name: sst_north_atlantic
+domain: NorthAtlantic
+variables: [sst]
+k: 5
+period: {start: 1991, end: 2020}
+seed: 0
+pca: {variance_threshold_pct: 1.0}
+baselines: [pca_kmeans]
+runs:
+  - {label: ws05, w_s: 0.05, allow_background_cluster: true, max_iter: 60}

@@ -1,0 +1,20 @@
+{
+  "title": "sw-kmeanspp",
+  "description": "Spatially weighted k-means++ for the regionalization of climate data -- code accompanying Squintu et al. (submitted to Geoscientific Model Development).",
+  "upload_type": "software",
+  "creators": [
+    {"name": "Squintu, Antonello", "affiliation": "CMCC Foundation, Bologna, Italy", "orcid": "0000-0000-0000-0000"},
+    {"name": "Pérez-Aracil, Jorge", "affiliation": "Dept. of Signal Theory and Communications, University of Alcalá, Spain", "orcid": "0000-0000-0000-0000"},
+    {"name": "McAdam, Ronan", "affiliation": "CMCC Foundation, Bologna, Italy", "orcid": "0000-0000-0000-0000"},
+    {"name": "Fella, Eugenio", "affiliation": "CMCC Foundation, Bologna, Italy / Alma Mater, University of Bologna, Italy", "orcid": "0000-0000-0000-0000"},
+    {"name": "Iakovidis, Isidoros", "affiliation": "CMCC Foundation, Bologna, Italy", "orcid": "0000-0000-0000-0000"},
+    {"name": "Scoccimarro, Enrico", "affiliation": "CMCC Foundation, Bologna, Italy", "orcid": "0000-0000-0000-0000"}
+  ],
+  "license": "mit",
+  "keywords": ["climate", "clustering", "k-means++", "regionalization", "ERA5"],
+  "related_identifiers": [
+    {"identifier": "10.0000/TODO-PAPER-DOI", "relation": "isSupplementTo", "resource_type": "publication-article"},
+    {"identifier": "10.24381/cds.4991cf48", "relation": "isDerivedFrom", "resource_type": "dataset"}
+  ],
+  "notes": "TODO: replace all ORCID/DOI placeholders above before the first Zenodo release; Zenodo's GitHub integration reads this file preferentially over CITATION.cff metadata."
+}

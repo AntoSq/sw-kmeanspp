@@ -1,0 +1,29 @@
+# Manuscript Table 1.
+Europe:
+  lonW: -20
+  lonE: 40
+  latS: 30
+  latN: 70
+  land_or_sea: land
+  exception: null
+NorthAtlantic:
+  lonW: -80
+  lonE: 30
+  latS: 23.5
+  latN: 72
+  land_or_sea: sea
+  exception: NoMediterranean  # Table 1: "Removal of Mediterranean"
+Mediterranean:
+  lonW: -5
+  lonE: 42
+  latS: 30
+  latN: 47
+  land_or_sea: sea
+  exception: NoBizcayaNoBlackSea  # Table 1: excludes the Bay of Biscay and the Black Sea
+Global:
+  lonW: -180
+  lonE: 180
+  latS: -90
+  latN: 90
+  land_or_sea: all
+  exception: null

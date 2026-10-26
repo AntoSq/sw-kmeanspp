@@ -1,0 +1,27 @@
+# data (self-contained, large, gitignored -- populated by data_prep/download_era5_cdsapi.py)
+/data/
+*.nc
+!data_prep/era5_lsm.nc
+*.pkl
+*.grib
+
+# credentials
+.cdsapirc
+*.netrc
+
+# outputs/cache
+/output/
+*.log
+
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.egg-info/
+build/
+dist/
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/

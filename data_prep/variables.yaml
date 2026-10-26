@@ -1,0 +1,27 @@
+# Maps the manuscript's variable names to the CDS "derived-era5-single-levels-daily-statistics"
+# dataset's request parameters (DOI 10.24381/cds.4991cf48). One request per year per variable;
+# see download_era5_cdsapi.py.
+tp:
+  cds_variable: total_precipitation
+  daily_statistic: daily_sum
+  unit_conversion: 1000.0  # ERA5 total_precipitation is in metres; the manuscript reports mm/day
+tmax:
+  cds_variable: 2m_temperature
+  daily_statistic: daily_maximum
+  unit_conversion: 1.0
+sst:
+  cds_variable: sea_surface_temperature
+  daily_statistic: daily_mean
+  unit_conversion: 1.0
+mslp:
+  cds_variable: mean_sea_level_pressure
+  daily_statistic: daily_mean
+  unit_conversion: 1.0
+u10:
+  cds_variable: 10m_u_component_of_wind
+  daily_statistic: daily_mean
+  unit_conversion: 1.0
+v10:
+  cds_variable: 10m_v_component_of_wind
+  daily_statistic: daily_mean
+  unit_conversion: 1.0

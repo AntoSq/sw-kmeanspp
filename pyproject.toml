@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=65"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sw-kmeanspp"
+version = "1.0.0"
+description = "Spatially weighted k-means++ for the regionalization of climate data"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Antonello Squintu", email = "antonello.squintu@cmcc.it" },
+    { name = "Jorge Pérez-Aracil" },
+    { name = "Ronan McAdam" },
+    { name = "Eugenio Fella" },
+    { name = "Isidoros Iakovidis" },
+    { name = "Enrico Scoccimarro" },
+]
+
+[tool.setuptools.packages.find]
+include = ["swkmeanspp*"]

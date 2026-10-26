@@ -1,0 +1,18 @@
+# Manuscript Sect. 3.3, Fig. 7: MSLP, Global, with/without background-cluster
+# permission. The "without background cluster" run is a non-convergent,
+# illustrative run (interrupted after 100 iterations).
+name: mslp_global
+domain: Global
+variables: [mslp]
+k: 5
+period: {start: 1991, end: 2020}
+seed: 0
+pca: {variance_threshold_pct: 1.0}
+baselines: [pca_kmeans]
+runs:
+  - {label: with_background, w_s: 0.05, allow_background_cluster: true, max_iter: 60}
+  - label: no_background
+    w_s: 0.05
+    allow_background_cluster: false
+    max_iter: 100
+    note: "Deliberately non-convergent illustrative run (Fig. 7b)."

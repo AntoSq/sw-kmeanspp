@@ -1,0 +1,15 @@
+# Manuscript Sect. 3.1, Figs. 2 & 4: TP, Europe, sweep over w_s.
+name: tp_europe_sweep
+domain: Europe
+variables: [tp]
+k: 5
+period: {start: 1991, end: 2020}
+seed: 0
+pca: {variance_threshold_pct: 1.0}
+baselines: [kmeans_raw, pca_kmeans]  # Fig. 2a / 2b
+runs:
+  - {label: ws02, w_s: 0.02, allow_background_cluster: true, max_iter: 60}
+  - {label: ws05, w_s: 0.05, allow_background_cluster: true, max_iter: 60}  # adopted default, Sect. 3.1
+  - {label: ws50, w_s: 0.50, allow_background_cluster: true, max_iter: 60}
+  - {label: ws100, w_s: 1.00, allow_background_cluster: true, max_iter: 60}
+  - {label: ws05_nobg, w_s: 0.05, allow_background_cluster: false, max_iter: 60}
