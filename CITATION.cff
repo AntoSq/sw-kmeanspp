@@ -5,7 +5,7 @@ version: "v1.0.0"
 date-released: "2026-10-26"  # TODO: update to the actual GitHub/Zenodo release date
 doi: "10.5281/zenodo.XXXXXXX"  # TODO: fill in after the Zenodo DOI is minted (see README)
 license: "MIT"
-repository-code: "https://github.com/TODO-ORG/sw-kmeanspp"  # TODO: fill in after the GitHub repo is created
+repository-code: "https://github.com/AntoSq/sw-kmeanspp"
 authors:
   - family-names: "Squintu"
     given-names: "Antonello"
