@@ -3,7 +3,7 @@ message: "If you use this software, please cite it as below."
 title: "sw-kmeanspp"
 version: "v1.0.1"
 date-released: "2026-10-27"  # TODO: update to the actual GitHub/Zenodo release date
-doi: "10.5281/zenodo.XXXXXXX"  # TODO: fill in after the Zenodo DOI is minted (see README)
+doi: "10.5281/zenodo.23697107"
 license: "MIT"
 repository-code: "https://github.com/AntoSq/sw-kmeanspp"
 authors:

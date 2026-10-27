@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-10-27 — DOI minted
+
+The `v1.0.1` release archived successfully on Zenodo:
+DOI `10.5281/zenodo.23697107`. Filled into `CITATION.cff` and `README.md`
+(citation BibTeX and version bumped to v1.0.1).
+
 ## v1.0.1 — 2026-10-27 — fix invalid Zenodo metadata
 
 The v1.0.0 GitHub release failed to archive on Zenodo. Cause: placeholder

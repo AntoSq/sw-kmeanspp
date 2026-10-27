@@ -19,14 +19,13 @@ If you use this code, please cite it as:
   publisher={Zenodo},
   howpublished={Zenodo},
   year={2026},
-  version={v1.0},
-  doi={10.5281/zenodo.XXXXXXX}
+  version={v1.0.1},
+  doi={10.5281/zenodo.23697107}
 }
 ```
 
-See also `CITATION.cff`. Both have `TODO` placeholders for the Zenodo DOI and
-author ORCIDs — fill these in once the first GitHub release mints a DOI (see
-"Publishing a release" below).
+See also `CITATION.cff`. Both still have `TODO` placeholders for author
+ORCIDs and the manuscript DOI — fill these in once available.
 
 ## Installation
 
